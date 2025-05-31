@@ -18,7 +18,7 @@ export interface AssetResponse {
 // Mock data for demo
 export const fetchAssets = async (
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  publicKey: PublicKey
+  _publicKey: PublicKey
 ): Promise<AssetResponse> => {
   const mockAssets: AssetResponse = {
     totalUsdValue: "1621.65",
