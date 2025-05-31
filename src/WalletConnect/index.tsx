@@ -124,7 +124,7 @@ const WalletConnectButton = ({
         {publicKey && (
           <MenuItems
             transition
-            className="absolute right-0 z-10 mt-2 w-70 origin-top-right rounded-md bg-slate-900 border border-slate-800 shadow-lg ring-1 ring-black/5 transition focus:outline-hidden data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in"
+            className="absolute right-0 z-10 m-4 mt-2 lg:w-70 origin-top-right rounded-md bg-slate-900 border border-slate-800 shadow-lg ring-1 ring-black/5 transition focus:outline-hidden data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in"
             anchor="bottom start"
           >
             <WalletAssets publicKey={publicKey} />
