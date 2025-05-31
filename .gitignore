@@ -26,3 +26,8 @@ dist-ssr
 *storybook.log
 storybook-static
 
+# Build info
+tsconfig.node.tsbuildinfo
+tsconfig.tsbuildinfo
+vite.config.d.ts
+vite.config.js
