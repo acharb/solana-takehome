@@ -35,7 +35,7 @@ export const Demo = () => {
         }}
       >
         <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white flex flex-col">
-          <div className="w-4xl mx-auto relative flex-grow">
+          <div className="w-full lg:w-4xl mx-auto relative flex-grow">
             <div className="absolute top-4 right-4">
               <div className="relative">
                 <WalletConnect
