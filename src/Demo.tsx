@@ -34,8 +34,8 @@ export const Demo = () => {
           showAlert(`Failed to connect wallet. ${error.message}`);
         }}
       >
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
-          <div className="max-w-6xl mx-auto relative">
+        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white flex flex-col">
+          <div className="w-4xl mx-auto relative flex-grow">
             <div className="absolute top-4 right-4">
               <div className="relative">
                 <WalletConnect
@@ -94,6 +94,17 @@ export const Demo = () => {
               </div>
             </div>
           </div>
+          <footer className="text-center py-8 text-gray-400 text-base">
+            Built with love by{" "}
+            <a
+              href="https://www.linkedin.com/in/aleccharbonneau"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Alec
+            </a>
+          </footer>
         </div>
       </WalletProvider>
     </ConnectionProvider>
