@@ -1,19 +1,7 @@
 See live preview: https://solana-takehome.onrender.com/
 
-# Running
-
-## Run local dev
-
-```
-npm i
-npm run dev
-```
-
-## Run storyboard
-
-```
-npm run storybook
-```
+- [Usage Guide](./docs/usage.md)
+- [Run locally](./docs/local.md)
 
 # Design Decisions
 
